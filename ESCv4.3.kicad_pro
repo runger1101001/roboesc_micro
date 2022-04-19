@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -83,6 +89,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -504,6 +511,10 @@
     [
       "00000000-0000-0000-0000-00006348a3ba",
       "DRV8316"
+    ],
+    [
+      "2dc95f90-55dd-423c-bf2b-7ee53f64ac03",
+      "Buck_MAX20076"
     ]
   ],
   "text_variables": {}
